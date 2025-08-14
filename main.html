@@ -10,7 +10,7 @@
   <!-- the entire body must be written by student -->
   <h1>Job Application Form</h1>
 
-  <form method="post">
+  <form method="POST">
     <!-- Name -->
     <label for="name">Name: *</label>
     <input type="text" id="name" name="name" required>
@@ -22,7 +22,7 @@
     <br><br>
 
     <!-- Gender -->
-    <span>Gender: *</span><br>
+    <label>Gender: *</label><br>
     <input type="radio" id="male" name="gender" value="male" required>
     <label for="male">Male</label><br>
     <input type="radio" id="female" name="gender" value="female">
@@ -61,7 +61,7 @@
     <br><br>
 
     <!-- Submit -->
-    <input type="submit" value="Submit">
+    <button type="submit">Submit</button>
   </form>
 
   <script src="./script.js"></script>
